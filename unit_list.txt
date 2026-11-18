@@ -1,0 +1,580 @@
+Deity Zenith - Dragonshard: everything in the Summon list (252 units incl. heroes, 39 buildings, 164 items)
+Picker: Faction -> Category (Unit / Building / Item) -> Summon. Heroes are in the Unit list, marked "[Hero] ".
+Items are not tied to a faction: Category = Item shows the same item list under every faction.
+Each summon creates exactly the unit picked: a captain comes alone, without soldiers.
+[captain] = Level Up (Level Up Key or Level Up Script) works on it (captain levels 1 to 6 in the game data; the upgrade buildings sell up to 5).
+
+== Order of the Flame / Unit (25)
+   [Hero] Amathor                                             type 140  UNIT_A_CHAMP_SEER
+   [Hero] Bastion                                             type 138  UNIT_A_CHAMP_BASTION
+   [Hero] Kael                                                type 139  UNIT_A_CHAMP_KAEL
+   [Hero] Lady Marryn                                         type 137  UNIT_A_CHAMP_LADY_MARRYN
+   Acolyte                                                    type 155  UNIT_A_SOLD_CLERIC
+   Artificer                                                  type 142  UNIT_A_CAPT_ARTIFICER  [captain]
+   Barbarian                                                  type 143  UNIT_A_CAPT_BARBARIAN  [captain]
+   Celestial Hawk                                             type 152  UNIT_A_SOLD_ARCHON
+   Cleric                                                     type 144  UNIT_A_CAPT_CLERIC  [captain]
+   Crafter                                                    type 153  UNIT_A_SOLD_ARTIFICER
+   Cutthroat                                                  type 158  UNIT_A_SOLD_ROGUE
+   Deathless Guardian                                         type 149  UNIT_A_CAPT_SPIRIT_GUARDIAN  [captain]
+   Disciple                                                   type 159  UNIT_A_SOLD_SORCERER
+   Flame Archon                                               type 141  UNIT_A_CAPT_ARCHON  [captain]
+   Knight                                                     type 156  UNIT_A_SOLD_PALADIN
+   Mage                                                       type 160  UNIT_A_SOLD_SPIRIT_GUARDIAN
+   Paladin                                                    type 145  UNIT_A_CAPT_PALADIN  [captain]
+   Phoenix                                                    type 151  UNIT_A_JUGG_PHOENIX
+   Ranger                                                     type 146  UNIT_A_CAPT_RANGER  [captain]
+   Rogue                                                      type 147  UNIT_A_CAPT_ROGUE  [captain]
+   Scout                                                      type 157  UNIT_A_SOLD_RANGER
+   Sorcerer                                                   type 148  UNIT_A_CAPT_SORCERER  [captain]
+   Warforged Keeper                                           type 161  UNIT_A_SOLD_WARFORGED
+   Warforged Titan                                            type 150  UNIT_A_CAPT_WARFORGED_TITAN  [captain]
+   Warrior                                                    type 154  UNIT_A_SOLD_BARBARIAN
+
+== Order of the Flame / Building (11)
+   Archon Temple                                              type  10  BUILDING_A_ARCHON_TEMPLE  [captain]
+   Artificer's Guild                                          type  33  BUILDING_A_ARTIFICERS_GUILD
+   Dwarven Armory                                             type   3  BUILDING_A_BLACKSMITH
+   Guard Tower                                                type   5  BUILDING_A_GUARD_TOWER
+   Henge of Ancients                                          type   0  BUILDING_A_PLACE_OF_ANCIENTS
+   Lorehold                                                   type   8  BUILDING_A_LOREHOLD
+   Order of the Bow                                           type   1  BUILDING_A_ORDER_OF_THE_BOW
+   Order of the Flame                                         type   6  BUILDING_A_ORDER_OF_THE_SILVER_FLAME
+   Sorcerer's Tower                                           type  30  BUILDING_A_WIZARDS_TOWER
+   Tavern                                                     type   2  BUILDING_A_TAVERN
+   Titan Forge                                                type  13  BUILDING_A_THE_WARFORGE
+
+== Lizardfolk / Unit (26)
+   [Hero] Blackclaw                                           type 231  UNIT_L_CHAMP_BLACKCLAW
+   [Hero] Redfang                                             type 232  UNIT_L_CHAMP_REDFANG
+   [Hero] Silverblade                                         type 233  UNIT_L_CHAMP_SILVERBLADE
+   [Hero] Wowen                                               type 234  UNIT_L_CHAMP_WOWEN
+   Chameleon Rogue                                            type 220  UNIT_L_CAPT_CHAMELEON_ROGUE  [captain]
+   Chameleon Sneak                                            type 245  UNIT_L_SOLD_CHAMELEON
+   Drakeling                                                  type 237  UNIT_L_SOLD_PTEREDON_RIDER
+   Earth Elemental                                            type 244  UNIT_L_SOLD_SPIRIT_OF_NATURE
+   Fire Drake                                                 type 221  UNIT_L_CAPT_ELEMENTAL_DRAKE  [captain]
+   Lizardfolk Fighter                                         type 224  UNIT_L_CAPT_LIZARDMAN_CHAMPION  [captain]
+   Lizardfolk Warrior                                         type 239  UNIT_L_SOLD_LIZARDMAN
+   Night Skink                                                type 226  UNIT_L_CAPT_NIGHT_SKINK  [captain]
+   Poison Archer                                              type 222  UNIT_L_CAPT_POISON_ARCHER  [captain]
+   Poison Newt                                                type 243  UNIT_L_SOLD_POISON_ARCHER
+   Pteranodon Rider                                           type 227  UNIT_L_CAPT_PTERADON_RIDER  [captain]
+   Spirit of Nature                                           type 229  UNIT_L_CAPT_SPIRIT_OF_NATURE  [captain]
+   Spitting Turtle                                            type 230  UNIT_L_CAPT_SPITTING_TURTLE  [captain]
+   Tribal Mystic                                              type 240  UNIT_L_SOLD_SHAMAN
+   Tribal Shaman                                              type 228  UNIT_L_CAPT_SHAMAN  [captain]
+   Troglodyte Hurler                                          type 236  UNIT_L_SOLD_SPITTING_TURTLE
+   Troglodyte Surveyor                                        type 225  UNIT_L_CAPT_NEWT_SURVEYOR  [captain]
+   Troglodyte Tinkerer                                        type 241  UNIT_L_SOLD_NEWT_SURVEYOR
+   Undead Skink (Night Skink Soldier) (#1)                    type   1  UNIT_NPC_SOLDIER_NIGHT_SKINK_LIZARD_MISSION_1
+   Undead Skink (Night Skink Soldier) (#238)                  type 238  UNIT_L_SOLD_NIGHT_SKINK
+   War Felldrake (Wartorn Fell Drake)                         type 235  UNIT_L_JUGG_WAR_FELL_DRAKE
+   War Felldrake (Wild Fell Drake)                            type  84  UNIT_L_JUGG_WAR_FELL_DRAKE_WILD
+
+== Lizardfolk / Building (11)
+   Burial Grounds                                             type  42  BUILDING_L_BURIAL_GROUNDS
+   Collector Burrow                                           type   7  BUILDING_L_JUNK_PILE
+   Draconic Monument                                          type  39  BUILDING_L_FIGHTING_ARENA
+   Fighting Arena                                             type  43  BUILDING_L_DRAGON_RELIC
+   Hidden Mound                                               type  16  BUILDING_L_CHAMELEON_BAYOU
+   Mystic Hut                                                 type  17  BUILDING_L_WITCH_DOCTOR
+   Pteranodon Roost                                           type  32  BUILDING_L_PTEREDON_ROOST
+   Toxic Bog                                                  type  49  BUILDING_L_BOG_DEN
+   Tribal Defender                                            type   9  BUILDING_L_TRIBAL_DEFENDER
+   Turtle Den                                                 type  40  BUILDING_L_BEASTKIN_LAIR
+   Verdant Cairn                                              type  11  BUILDING_L_CAIRN
+
+== Umbragen / Unit (26)
+   [Hero] Blood Queen                                         type 210  UNIT_D_CHAMP_BLOOD_QUEEN
+   [Hero] Orobus (#211)                                       type 211  UNIT_D_CHAMP_OROBUS
+   [Hero] Orobus (#39)                                        type  39  UNIT_D_CHAMP_OROBUS_LIZARD_6
+   [Hero] Satros                                              type 212  UNIT_D_CHAMP_SATROS
+   [Hero] Silence                                             type 213  UNIT_D_CHAMP_SILENCE
+   Abyssal Raptor                                             type 208  UNIT_D_CAPT_FLYING_APPARITION  [captain]
+   Abyssal Shrike                                             type 216  UNIT_D_SOLD_PHANTASM
+   Blood Reaver                                               type 209  UNIT_D_CAPT_BLOOD_REAVER  [captain]
+   Blood Screecher                                            type 295  UNIT_D_SOLD_BLOOD_REAVER
+   Burning Adept                                              type 219  UNIT_D_SOLD_BURNING_MAGI
+   Burning Savant                                             type 207  UNIT_D_CAPT_PRIESTESS  [captain]
+   Grim Shadow                                                type 218  UNIT_D_SOLD_MIND_STALKER
+   Grim Warden                                                type 201  UNIT_D_CAPT_MIND_STALKER  [captain]
+   Hive Keeper                                                type 272  UNIT_D_CAPT_KEEPER  [captain]
+   Hive Watcher                                               type 217  UNIT_D_SOLD_KEEPER
+   Shadow Slinger                                             type 296  UNIT_D_SOLD_SHADOW_STRIDER
+   Shadow Strider                                             type 205  UNIT_D_CAPT_SHADOW_STRIDER  [captain]
+   Silent Creeper                                             type 297  UNIT_D_SOLD_SKULK
+   Silent Stalker                                             type 204  UNIT_D_CAPT_SKULK  [captain]
+   Tainted Apparition                                         type 299  UNIT_D_SOLD_VAMPIRESS
+   Tainted Priestess                                          type 206  UNIT_D_CAPT_VAMPIRESS  [captain]
+   Umbra Guard                                                type 298  UNIT_D_SOLD_UMBRA_LORD
+   Umbra Lord                                                 type 203  UNIT_D_CAPT_UMBRA_LORD  [captain]
+   Umbrascarred Beholder                                      type 214  UNIT_D_JUGG_UMBRASCARRED_BEHOLDER
+   Wraith Blade                                               type 215  UNIT_D_SOLD_DREAD_KNIGHT
+   Wraith Knight                                              type 202  UNIT_D_CAPT_DREAD_KNIGHT  [captain]
+
+== Umbragen / Building (17)
+   Altar of Passage                                           type  38  BUILDING_D_ARCANUM_OF_PASSAGE
+   Arcane Abyss                                               type  41  BUILDING_D_SUNLESS_VAULT_UPGRADE
+   Chamber of Blades                                          type  34  BUILDING_D_SUNLESS_VAULT
+   Infested Caverns                                           type  31  BUILDING_D_OBSIDIAN_TOMB
+   Keeper Hives (Keeper Fissures)                             type  18  BUILDING_UNIQUE_KEEPER_CAVES_FISSURE
+   Keeper Hives (Keeper Hive 01)                              type  15  BUILDING_UNIQUE_KEEPER_CAVES_HIVE_01
+   Keeper Hives (Keeper Hive 02)                              type  19  BUILDING_UNIQUE_KEEPER_CAVES_HIVE_02
+   Keeper Hives (Keeper Hive 03)                              type  20  BUILDING_UNIQUE_KEEPER_CAVES_HIVE_03
+   Obsidian Pool                                              type  44  BUILDING_D_STYGIAN_ARCHIVES_UPGRADE
+   Sanctum of Sorrow                                          type  28  BUILDING_D_STYGIAN_ARCHIVES
+   Searing Crucible                                           type  45  BUILDING_D_ARCANUM_OF_PASSAGE_UPGRADE
+   Shadow Barb                                                type  29  BUILDING_D_SHARD_CASTER
+   Shrine of Night                                            type  47  BUILDING_D_CABAL_OF_BLOOD_UPGRADE
+   Sinister Lair                                              type  48  BUILDING_D_OBSIDIAN_TOMB_UPGRADE
+   Umbragen Compound Cannon                                   type  12  BUILDING_UNIQUE_UMBRAGEN_CANNON
+   Umbragen Compound Turret                                   type  73  BUILDING_UNIQUE_UMBRAGEN_COMPOUND_AIR
+   Void of Whispers                                           type  46  BUILDING_D_CABAL_OF_BLOOD
+
+== Monsters / Unit (85)
+   Arctic Minotaur                                            type  21  UNIT_M_MINOTAUR_SNOW
+   Beholder                                                   type  23  UNIT_M_BEHOLDER
+   Beholder Lord                                              type  77  UNIT_M_BEHOLDER_LORD
+   Bugbear (Bugbear_Axe)                                      type  79  UNIT_M_BUGBEAR_VARIANT_AXE
+   Bugbear (Bugbear_Morningstar)                              type  81  UNIT_M_BUGBEAR_VARIANT_MORNINGSTAR
+   Bugbear (Bugbear_Sword)                                    type  80  UNIT_M_BUGBEAR_VARIANT_SWORD
+   Bugbear Chieftain                                          type  41  UNIT_M_BUGBEAR_CHIEFTAIN
+   Caryatid Column (Caryatid Column - Death Crumble)          type 113  UNIT_M_CARYATID_COLUMN_DEATH_CRUMBLE
+   Caryatid Column (Caryatid Column - Static)                 type 109  UNIT_M_CARYATID_COLUMN_STATIC
+   Caryatid Column (Caryatid_Column - Elven - Axe - H1 - P1)  type 132  UNIT_M_CARYATID_COLUMN_ELVEN_VAR_AXE_H1_P1
+   Caryatid Column (Caryatid_Column - Elven - Axe - H1 - P2)  type 128  UNIT_M_CARYATID_COLUMN_ELVEN_VAR_AXE_H1_P2
+   Caryatid Column (Caryatid_Column - Elven - Axe - H2 - P1)  type 133  UNIT_M_CARYATID_COLUMN_ELVEN_VAR_AXE_H2_P1
+   Caryatid Column (Caryatid_Column - Elven - Axe - H2 - P2)  type 130  UNIT_M_CARYATID_COLUMN_ELVEN_VAR_AXE_H2_P2
+   Caryatid Column (Caryatid_Column - Elven - Staff - H1 - P1) type 134  UNIT_M_CARYATID_COLUMN_ELVEN_VAR_STAFF_H1_P1
+   Caryatid Column (Caryatid_Column - Elven - Staff - H1 - P2) type 129  UNIT_M_CARYATID_COLUMN_ELVEN_VAR_STAFF_H1_P2
+   Caryatid Column (Caryatid_Column - Elven - Staff - H2 - P1) type 135  UNIT_M_CARYATID_COLUMN_ELVEN_VAR_STAFF_H2_P1
+   Caryatid Column (Caryatid_Column - Elven - Staff - H2 - P2) type 131  UNIT_M_CARYATID_COLUMN_ELVEN_VAR_STAFF_H2_P2
+   Caryatid Column (Caryatid_Column)                          type 108  UNIT_M_CARYATID_COLUMN
+   Cryohydra                                                  type 269  UNIT_M_HYDRA
+   Dire Giant Cobra                                           type 173  UNIT_M_COBRA
+   Dire Giant Wasp (Harrow Beetle) (#223)                     type 223  UNIT_L_CAPT_HARROW_BEETLE
+   Dire Giant Wasp (Harrow Beetle) (#99)                      type  99  UNIT_M_HARROW_WASP
+   Drider                                                     type 270  UNIT_M_DRIDER
+   Duergar (#33)                                              type  33  UNIT_M_DUERGAR
+   Duergar (Duergar Bow)                                      type 253  UNIT_M_DUERGAR_BOW
+   Duergar Leader                                             type 168  UNIT_M_DUERGAR_LEADER
+   Efreet                                                     type 273  UNIT_M_EFREET
+   Elven Vampire Fighter                                      type 102  UNIT_M_ELVEN_VAMPIRE_FIGHTER
+   Elven Vampire Wizard                                       type 103  UNIT_M_ELVEN_VAMPIRE_WIZARD
+   Ettin (#24)                                                type  24  UNIT_M_ETTIN
+   Ettin (Ettin - Lizard Mission 2)                           type 100  UNIT_M_ETTIN_LIZARD_MISSION_2
+   Ettin (Ettin - Ranged)                                     type 251  UNIT_M_ETTIN_RANGED
+   Frost Beast                                                type 174  UNIT_M_GIANT_WOLF_TAUR
+   Frost Giant                                                type  42  UNIT_M_FROST_GIANT
+   Gelatinous Cube                                            type  35  UNIT_M_GELATINOUS_CUBE
+   Greater Magma Elemental                                    type 116  UNIT_M_MAGMA_ELEMENTAL_BOSS
+   Horned Devil (#162)                                        type 162  UNIT_M_HORNED_DEVIL
+   Horned Devil (Horned Devil - Fire)                         type  87  UNIT_M_HORNED_DEVIL_FIRE
+   Horned Devil (Horned Devil - Poison)                       type  88  UNIT_M_HORNED_DEVIL_POISON
+   Horned Devil (Horned Devil - Vision)                       type 306  UNIT_M_HORNED_DEVIL_VISION
+   Iron Golem                                                 type  25  UNIT_M_IRON_GOLEM
+   Kal'narn, Captain of the Stained Blade                     type 167  UNIT_M_STAINED_BLADE_CAPTAIN
+   King Gelatinous Cube                                       type   0  UNIT_M_GELATINOUS_CUBE_BOSS
+   Lizardfolk Fighter                                         type 307  UNIT_M_LIZARD_SPIRIT_GUARDIAN
+   Magma Elemental                                            type  50  UNIT_M_MAGMA_ELEMENTAL
+   Maimed Zombie                                              type  47  UNIT_M_ZOMBIE_HALF
+   Marilith                                                   type  48  UNIT_M_MARILITH
+   Medusa                                                     type  26  UNIT_M_MEDUSA
+   Mind Flayer Illusionist (Mind Flayer - Illusionist Decoy)  type 256  UNIT_M_MIND_FLAYER_ILLUSIONIST_DECOY
+   Mind Flayer Illusionist (Mind Flayer - Illusionist)        type 255  UNIT_M_MIND_FLAYER_ILLUSIONIST
+   Mind Flayer Psion                                          type  62  UNIT_M_MIND_FLAYER_PSIONIC
+   Mind Flayer Warrior                                        type  59  UNIT_M_MIND_FLAYER_WARRIOR
+   Mind Flayer Wizard (Mind Flayer - General)                 type  11  UNIT_M_MIND_FLAYER_GENERAL
+   Mind Flayer Wizard (Mind Flayer - Mage)                    type  58  UNIT_M_MIND_FLAYER_MAGE
+   Minotaur (#7)                                              type   7  UNIT_M_MINOTAUR
+   Minotaur (Minotaur - Mission)                              type  38  UNIT_M_MINOTAUR_MISSION
+   Minotaur Lord (#250)                                       type 250  UNIT_M_MINOTAUR_LORD
+   Minotaur Lord (Minotaur - Boss)                            type 187  UNIT_M_MINOTAUR_BOSS
+   Mummy (#274)                                               type 274  UNIT_M_MUMMY
+   Mummy (Wretched Creature)                                  type  49  UNIT_M_WRETCHED_CREATURE
+   Necromancer                                                type  86  UNIT_M_NECROMANCER
+   Pyrohydra                                                  type 184  UNIT_M_HYDRA_PYRO
+   Qabalrin Wight Captain                                     type  61  UNIT_M_QABALRIN_UNDEAD_CAPTAIN
+   Qabalrin Wight Soldier (Qabalrin Undead Soldier)           type  70  UNIT_M_QABALRIN_UNDEAD_SOLDIER
+   Qabalrin Wight Soldier (Stained Blade Soldier)             type 166  UNIT_M_STAINED_BLADE_SOLDIER
+   Reanimated Lizardfolk (Undead Lizardman Captain)           type  17  UNIT_M_UNDEAD_LIZARDMAN_CAPTAIN
+   Reanimated Lizardfolk (Undead Night Skink)                 type  15  UNIT_M_UNDEAD_NIGHT_SKINK
+   Reanimated Lizardfolk (Undead Poison Archer)               type  18  UNIT_M_UNDEAD_POISON_ARCHER
+   Reanimated Lizardfolk (Undead Shaman)                      type  14  UNIT_M_UNDEAD_SHAMAN
+   Red Dragon                                                 type  10  UNIT_M_RED_DRAGON  [captain]
+   Scorpion Folk                                              type 271  UNIT_M_SCORPION_FOLK
+   Shard Golem                                                type  22  UNIT_M_SHARD_GOLEM
+   Skeleton Archer                                            type 115  UNIT_M_SKELETON_ARCHER
+   Skeleton Fighter                                           type 114  UNIT_M_SKELETON_WARRIOR
+   Skewered Lizardfolk (Skewered Lizard 01)                   type  19  UNIT_M_SKEWERED_LIZARD_01
+   Skewered Lizardfolk (Skewered Lizard 02)                   type  20  UNIT_M_SKEWERED_LIZARD_02
+   Spider Hatchling                                           type  44  UNIT_M_MINI_SPIDER
+   Thri-Kreen Hunter                                          type  52  UNIT_M_MANTIS_RANGED
+   Thri-Kreen Shaman                                          type  53  UNIT_M_MANTIS_SHAMAN
+   Thri-Kreen Warrior                                         type  69  UNIT_M_MANTIS_WARRIOR
+   Umber Hulk                                                 type  98  UNIT_M_UMBERHULK
+   Undead Minotaur                                            type  32  UNIT_M_MINOTAUR_UNDEAD
+   Winter Wolf                                                type 301  UNIT_M_FROST_WOLF
+   Yuan-Ti                                                    type 101  UNIT_M_YUAN_TI
+   Zombie                                                     type  85  UNIT_M_ZOMBIE
+
+== Monsters / Building (0)
+   (none)
+
+== Neutral NPCs / Unit (39)
+   [Hero] Darroc (#4)                                         type   4  UNIT_NPC_DARROC
+   [Hero] Darroc (Darroc - Rebirth)                           type 258  UNIT_NPC_DARROC_REBIRTH
+   [Hero] Darroc (Darroc - TEST)                              type  92  UNIT_NPC_DARROC_TEST
+   [Hero] Darroc (Darroc Vision)                              type  31  UNIT_NPC_DARROC_VISION
+   [Hero] Draconic Spirit                                     type   5  UNIT_NPC_DRACONIC_SPIRIT
+   [Hero] Tomb Guardian                                       type  27  UNIT_NPC_TEMPLE_GUARDIAN
+   Archaeologist                                              type  56  UNIT_NPC_ARCHAEOLOGIST
+   Archaeologist Assistant                                    type  55  UNIT_NPC_LOST_ADVENTURER
+   Arquella                                                   type  29  UNIT_NPC_LEADER_ARQUELLA
+   Bog Drake                                                  type   2  UNIT_NPC_BOG_DRAKE
+   Constable                                                  type  36  UNIT_NPC_MAYOR
+   Crow NPC                                                   type  65  UNIT_NPC_CROW
+   Djinn                                                      type  91  UNIT_NPC_GENIE
+   Elderly Wizard                                             type  40  UNIT_NPC_ELDERLY_WIZARD
+   Evil Spirit                                                type  46  UNIT_NPC_EVIL_SPIRIT
+   Fire Toad                                                  type  16  UNIT_NPC_FIRE_TOAD
+   Forgotten Spirit                                           type 178  UNIT_NPC_FORGOTTEN_SPIRIT
+   Gnome Alchemist                                            type  43  UNIT_NPC_GNOME_ALCHEMIST
+   Grave Keeper                                               type  75  UNIT_NPC_UNDEAD_GRAVE_KEEPER
+   Greathawk                                                  type 165  UNIT_NPC_GREATHAWK
+   Greenblood Chieftain                                       type 176  UNIT_NPC_MANTIS_GREENBLOOD
+   Guardian of Strength                                       type 104  UNIT_NPC_SHAMAN_SPIRIT
+   Holy Warhorse                                              type 252  UNIT_NPC_PALADIN_HORSE
+   Knight (Guard - Sword)                                     type 248  UNIT_NPC_GUARD_SWORD
+   Knight (Guard)                                             type  96  UNIT_NPC_GUARD
+   Lizard Chieftain                                           type  97  UNIT_NPC_ELDER_SHAMAN
+   Lizard Nomad                                               type 105  UNIT_NPC_LIZARD_NOMAD
+   Lord Ratak'h                                               type 254  UNIT_NPC_BEHOLDER_THRALL
+   Obsidian Monk                                              type 164  UNIT_NPC_OBSIDIAN_MONK
+   Peasant                                                    type   6  UNIT_NPC_PEASANT
+   Pixie                                                      type 117  UNIT_NPC_FAERIE
+   Qabalrin Spirit                                            type  34  UNIT_NPC_QABALRIN_SPIRIT
+   Redblood Chieftain                                         type 175  UNIT_NPC_MANTIS_REDBLOOD
+   Restless Spirit                                            type 257  UNIT_NPC_RESTLESS_SPIRIT
+   Skyship                                                    type  28  UNIT_NPC_SKYSHIP
+   Tomb Warrior                                               type  30  UNIT_NPC_TEMPLE_WARRIOR
+   Tortured Spirit                                            type  94  UNIT_NPC_ANCIENT_SPIRIT
+   Very Important Man                                         type 261  UNIT_NPC_VERY_IMPORTANT_MAN
+   Vulture                                                    type  95  UNIT_NPC_VULTURE
+
+== Neutral NPCs / Building (0)
+   (none)
+
+== Wildlife, cinematic and special / Unit (51)
+   Animal Companion - Dire Rat                                type 260  UNIT_A_CAPT_RANGER_RAT
+   Animal Companion - Eagle                                   type 288  UNIT_A_CAPT_RANGER_FALCON
+   Bat                                                        type 123  UNIT_AMBIENT_BAT
+   Bat - Cinematic                                            type  37  UNIT_CINEMATIC_BAT
+   Boar                                                       type 106  UNIT_AMBIENT_BOAR
+   Butterfly - 01                                             type 190  UNIT_AMBIENT_BUTTERFLY_01
+   Butterfly - 02                                             type 191  UNIT_AMBIENT_BUTTERFLY_02
+   Butterfly - 03                                             type 192  UNIT_AMBIENT_BUTTERFLY_03
+   Butterfly - 04                                             type 193  UNIT_AMBIENT_BUTTERFLY_04
+   Butterfly - 05                                             type 194  UNIT_AMBIENT_BUTTERFLY_05
+   Butterfly - 06                                             type 195  UNIT_AMBIENT_BUTTERFLY_06
+   Butterfly - 07                                             type 196  UNIT_AMBIENT_BUTTERFLY_07
+   Butterfly - 08                                             type 197  UNIT_AMBIENT_BUTTERFLY_08
+   Crow                                                       type  60  UNIT_AMBIENT_CROW
+   Crow - Cinematic                                           type  12  UNIT_CINEMATIC_CROW
+   Deer                                                       type 112  UNIT_AMBIENT_DEER
+   Dragonfly - Blue                                           type 198  UNIT_AMBIENT_DRAGONFLY_BLUE
+   Dragonfly - Green                                          type 199  UNIT_AMBIENT_DRAGONFLY_GREEN
+   Dragonfly - Red                                            type 200  UNIT_AMBIENT_DRAGONFLY_RED
+   Eagle                                                      type 284  UNIT_AMBIENT_EAGLE
+   Fish - Cave                                                type 189  UNIT_AMBIENT_FISH_CAVE
+   Fish - Piranha                                             type 188  UNIT_AMBIENT_FISH_PIRANHA
+   Fish - Salmon                                              type 179  UNIT_AMBIENT_FISH_SALMON
+   Fish - Sturgeon                                            type 181  UNIT_AMBIENT_FISH_STURGEON
+   Fish - Trout                                               type 180  UNIT_AMBIENT_FISH_TROUT
+   Frog                                                       type 242  UNIT_AMBIENT_FROG
+   Gecko                                                      type 290  UNIT_AMBIENT_GECKO
+   Goat                                                       type 291  UNIT_AMBIENT_GOAT
+   Keeper - Beast                                             type   3  UNIT_D_CAPT_KEEPER_BG_SHADOWSHIFT_BEAST
+   Monkey                                                     type 292  UNIT_AMBIENT_MONKEY
+   Newt Surveyor - Protector Plant                            type 289  UNIT_L_CAPT_NEWT_SURVEYOR_BG_PROTECTOR_PLANT
+   Parrot - Blue                                              type 287  UNIT_AMBIENT_PARROT_BLUE
+   Parrot - Green                                             type 286  UNIT_AMBIENT_PARROT_GREEN
+   Parrot - Red                                               type 285  UNIT_AMBIENT_PARROT_RED
+   Polymorphed Captain                                        type   9  UNIT_NPC_POLYMORPH_MONKEY
+   Rat                                                        type 136  UNIT_AMBIENT_RAT
+   Rat - Brown                                                type  57  UNIT_AMBIENT_RAT_BROWN
+   Raven                                                      type 283  UNIT_AMBIENT_RAVEN
+   Seal of Light                                              type 177  UNIT_RESOURCE_ITEM_SEAL_OF_LIGHT
+   Small Fish - Blue                                          type 125  UNIT_AMBIENT_FISH_SMALL_BLUE
+   Small Fish - Gold                                          type 124  UNIT_AMBIENT_FISH_SMALL_GOLD
+   Small Fish - Green                                         type 126  UNIT_AMBIENT_FISH_SMALL_GREEN
+   Snail                                                      type 293  UNIT_AMBIENT_SNAIL
+   Snake - Gardener                                           type 169  UNIT_AMBIENT_SNAKE_GARDENER
+   Snake - Racer                                              type 170  UNIT_AMBIENT_SNAKE_RACER
+   Snake - Rattle                                             type 171  UNIT_AMBIENT_SNAKE_RATTLE
+   Snake - Tree                                               type 172  UNIT_AMBIENT_SNAKE_TREE
+   Spirit                                                     type 127  UNIT_AMBIENT_SPIRIT
+   Tainted Priestess                                          type   8  UNIT_D_CAPT_VAMPIRESS_BG_SHADOWSHIFT
+   Wolf                                                       type 294  UNIT_AMBIENT_WOLF
+   Wolf - Coyote                                              type 163  UNIT_AMBIENT_WOLF_COYOTE
+
+== Wildlife, cinematic and special / Building (0)
+   (none)
+
+== Items (164, same list under every faction)
+   ground = object dropped by "At mouse cursor" / "At selected unit"; inventory = "Into owner's inventory" works
+   [Artifact] = champion artifact for the named hero; [Quest] = campaign quest item (mission scripts may react to it)
+   Abyssal Gauntlets                                    item  98  ground    inventory MISSION_ITEM_ABYSSAL_GAUNTLETS
+   Alchemist's Fire                                     item  35  ground    inventory MISSION_ITEM_POTION_OF_EXPLODING
+   Amulet of Energy                                     item  30  ground    inventory MISSION_ITEM_AMULET_OF_SPELL_ENERGY
+   Beholders Eye                                        item  22  ground    inventory MISSION_ITEM_BEHOLDER_EYE
+   Boots of Haste                                       item  46  ground    inventory MISSION_ITEM_BOOTS_OF_HASTE
+   Bracers of Armor                                     item   0  ground    inventory MISSION_ITEM_BRACERS_OF_ARMOR_CLASS
+   Bracers of Power                                     item  47  ground    inventory MISSION_ITEM_BRACERS_OF_POWER
+   Cloak of Invisibility                                item  32  ground    inventory MISSION_ITEM_CLOAK_OF_INVISIBILITY
+   Crown of True Sight                                  item  48  ground    inventory MISSION_ITEM_CROWN_OF_TRUE_SIGHT
+   Elder Brain Fragment                                 item  42  ground    inventory MISSION_ITEM_ELDER_BRAIN_FRAGMENT
+   Experience Scroll I                                  item  87  ground    inventory MISSION_ITEM_EXPERIENCE_SCROLL_1
+   Experience Scroll II                                 item  88  ground    inventory MISSION_ITEM_EXPERIENCE_SCROLL_2
+   Experience Scroll III                                item  89  ground    inventory MISSION_ITEM_EXPERIENCE_SCROLL_3
+   Experience Scroll IV                                 item  90  ground    inventory MISSION_ITEM_EXPERIENCE_SCROLL_4
+   Experience Scroll V                                  item  91  ground    inventory MISSION_ITEM_EXPERIENCE_SCROLL_5
+   General's Bracer                                     item  11  ground    inventory MISSION_ITEM_GENERALS_BRACER
+   Girdle of Dwarven Might                              item 137  ground    inventory MISSION_ITEM_GIRDLE_OF_DWARVEN_MIGHT
+   Helm of Willpower                                    item  20  ground    inventory MISSION_ITEM_HELM_OF_WILLPOWER
+   Horn of Battle Fury                                  item  57  ground    inventory MISSION_ITEM_HORN_OF_BATTLE_FURY
+   Idol of Blinding                                     item  27  ground    inventory MISSION_ITEM_IDOL_OF_BLINDING
+   Masterwork Breastplate                               item  14  ground    inventory MISSION_ITEM_ARMOR_UPGRADE_ITEM
+   Masterwork Sword                                     item  15  ground    inventory MISSION_ITEM_DAMAGE_UPGRADE_ITEM
+   Medusa's Head                                        item  29  ground    inventory MISSION_ITEM_MEDUSA_HEAD
+   Minotaur Horn                                        item  58  ground    inventory MISSION_ITEM_MINOTAUR_HORN
+   Necklace of Restoration                              item 106  ground    inventory MISSION_ITEM_NECKLACE_OF_REGENERATION
+   Potion of Barkskin                                   item  61  ground    inventory MISSION_ITEM_POTION_OF_BARKSKIN
+   Potion of Clarity I                                  item 127  ground    inventory MISSION_ITEM_POTION_OF_CLARITY_1
+   Potion of Clarity II                                 item 128  ground    inventory MISSION_ITEM_POTION_OF_CLARITY_2
+   Potion of Clarity III                                item 129  ground    inventory MISSION_ITEM_POTION_OF_CLARITY_3
+   Potion of Cure Light Wounds                          item   2  ground    inventory MISSION_ITEM_POTION_OF_HEAL
+   Potion of Cure Moderate Wounds                       item  40  ground    inventory MISSION_ITEM_POTION_OF_HEAL_2
+   Potion of Cure Severe Wounds                         item  41  ground    inventory MISSION_ITEM_POTION_OF_HEAL_3
+   Potion of Evasion                                    item  38  ground    inventory MISSION_ITEM_POTION_OF_EVASION
+   Potion of Haste                                      item   1  ground    inventory MISSION_ITEM_POTION_OF_HASTE
+   Potion of Rage                                       item  34  ground    inventory MISSION_ITEM_POTION_OF_RAGE
+   Potion of Wonder                                     item   6  ground    inventory MISSION_ITEM_POTION_OF_WONDER
+   Qabalrin Priest Robe                                 item  26  ground    inventory MISSION_ITEM_QABALRIN_PRIEST_ROBE
+   Qabalrin Shield                                      item  23  ground    inventory MISSION_ITEM_QABALRIN_GUARD_SHIELD
+   Relic of the Lizard Tomb (quest relic)               item  31  ground    inventory MISSION_ITEM_ANCIENT_LIZARD_ARTIFACT
+   Ring of Fireball                                     item  10  ground    inventory MISSION_ITEM_RING_OF_FIRE
+   Ring of Fireball (Ring of Combustion)                item  95  ground    inventory MISSION_ITEM_RING_OF_COMBUSTION
+   Ring of Necromancy                                   item 139  ground    inventory MISSION_ITEM_RING_OF_NECROMANCY
+   Ring of Regeneration                                 item   3  ground    inventory MISSION_ITEM_RING_OF_REGENERATION
+   Ring of the Elements                                 item  24  ground    inventory MISSION_ITEM_RING_OF_ELEMENTAL_PROTECTION
+   Rod of Rulership                                     item  62  ground    inventory MISSION_ITEM_ROD_OF_RULERSHIP
+   Rod of Sunburst                                      item  93  ground    inventory MISSION_ITEM_ROD_OF_SUNBURST
+   Scorpion Stinger                                     item  21  ground    inventory MISSION_ITEM_SCORPION_STINGER
+   Scroll of Bigby's Forceful Hand                      item  70  ground    inventory MISSION_ITEM_SCROLL_OF_BIGBYS_FORCEFUL_HAND
+   Scroll of Charm Person                               item   4  ground    inventory MISSION_ITEM_SCROLL_OF_CHARM_PERSON
+   Scroll of Create Undead                              item  63  ground    inventory MISSION_ITEM_SCROLL_OF_CREATE_UNDEAD
+   Scroll of Dispel Magic                               item 134  ground    inventory MISSION_ITEM_SCROLL_OF_CANCEL_MAGIC
+   Scroll of Dispel Magic (remove magic)                item 104  -         inventory MISSION_ITEM_SCROLL_OF_REMOVE_MAGIC
+   Scroll of Entangle                                   item  69  ground    inventory MISSION_ITEM_SCROLL_OF_ENTANGLE
+   Scroll of Finger of Death                            item  66  ground    inventory MISSION_ITEM_SCROLL_OF_FINGER_OF_DEATH
+   Scroll of Flame Strike                               item  67  ground    inventory MISSION_ITEM_SCROLL_OF_FLAME_STRIKE
+   Scroll of Knock                                      item 138  ground    inventory MISSION_ITEM_SCROLL_OF_KNOCK
+   Scroll of Lightning Bolt                             item  72  ground    inventory MISSION_ITEM_SCROLL_OF_LIGHTNING_BOLT
+   Scroll of Mage Armor                                 item  73  ground    inventory MISSION_ITEM_SCROLL_OF_MAGE_ARMOR
+   Scroll of Magic Immunity                             item  99  ground    inventory MISSION_ITEM_SCROLL_OF_MAGIC_IMMUNITY
+   Scroll of Melf's Acid Arrow                          item  68  ground    inventory MISSION_ITEM_SCROLL_OF_MELFS_ACID_ARROW
+   Scroll of Meteor Swarm                               item  74  ground    inventory MISSION_ITEM_SCROLL_OF_METEOR_SWARM
+   Scroll of Monster Summoning                          item  75  ground    inventory MISSION_ITEM_SCROLL_OF_MONSTER_SUMMONING
+   Scroll of Rebuke Undead                              item  64  ground    inventory MISSION_ITEM_SCROLL_OF_REBUKE_UNDEAD
+   Scroll of Repair Critical Damage                     item  13  ground    inventory MISSION_ITEM_SCROLL_OF_REPAIR_CRITICAL_DAMAGE
+   Scroll of Resurrection                               item  65  ground    inventory MISSION_ITEM_SCROLL_OF_RESURRECTION
+   Snares of the Crypt                                  item  80  ground    inventory MISSION_ITEM_SNARES_OF_THE_CRYPT
+   Staff of Command (multiplayer version)               item 175  ground    inventory MISSION_ITEM_STAFF_OF_COMMAND_MP
+   Sword of Cinders                                     item  83  ground    inventory MISSION_ITEM_SWORD_OF_CINDERS
+   Sword of Slaying                                     item  84  ground    inventory MISSION_ITEM_SWORD_OF_SLAYING
+   Sword of Vampirism                                   item  85  ground    inventory MISSION_ITEM_SWORD_OF_VAMPIRISM
+   Taen'cradus's Breastplate                            item  19  ground    inventory MISSION_ITEM_WARRIOR_BREASTPLATE
+   Talisman of Vitality                                 item  81  ground    inventory MISSION_ITEM_TALISMAN_OF_VITALITY
+   Teleport Circle                                      item 110  -         inventory MISSION_ITEM_FAERIE_RING
+   Venomous Blade                                       item  76  ground    inventory MISSION_ITEM_VENEMOUS_BLADE
+   Villager's Gold                                      item  37  ground    inventory MISSION_ITEM_VILLAGERS_GOLD
+   Wand of Inflict Severe Wounds                        item  77  ground    inventory MISSION_ITEM_WAND_OF_INFLICT_SEVERE_WOUNDS
+   [Artifact] Crystalline Warhammer (Lady Marryn)       item 148  ground    inventory MISSION_ITEM_A_CHAMP_LADY_MARRYN_CRYSTALLINE_WARHAMMER
+   [Artifact] Dagger of Frost (Kael)                    item 150  ground    inventory MISSION_ITEM_A_CHAMP_KAEL_DAGGER_OF_FROST
+   [Artifact] Darroc's Soul Gem (Blackclaw)             item 164  ground    inventory MISSION_ITEM_L_CHAMP_BLACKCLAW_DARROC_SUMMON
+   [Artifact] Darroc's Soul Gem (Redfang)               item 165  ground    inventory MISSION_ITEM_L_CHAMP_REDFANG_DARROC_SUMMON
+   [Artifact] Darroc's Soul Gem (Silverblade)           item 166  ground    inventory MISSION_ITEM_L_CHAMP_SILVERBLADE_DARROC_SUMMON
+   [Artifact] Darroc's Soul Gem (Wowen)                 item 167  ground    inventory MISSION_ITEM_L_CHAMP_WOWEN_DARROC_SUMMON
+   [Artifact] Devil Fang Necklace (Bastion)             item 152  ground    inventory MISSION_ITEM_A_CHAMP_BASTION_NECKLACE_OF_DEMONS_TOOTH
+   [Artifact] Devil Fang Necklace (Kael)                item 153  ground    inventory MISSION_ITEM_A_CHAMP_KAEL_NECKLACE_OF_DEMONS_TOOTH
+   [Artifact] Devil Fang Necklace (Lady Marryn)         item 154  ground    inventory MISSION_ITEM_A_CHAMP_LADY_MARRYN_NECKLACE_OF_DEMONS_TOOTH
+   [Artifact] Devil Fang Necklace (The Seer)            item 155  ground    inventory MISSION_ITEM_A_CHAMP_SEER_NECKLACE_OF_DEMONS_TOOTH
+   [Artifact] Draconic Femur (Redfang)                  item 160  ground    inventory MISSION_ITEM_L_CHAMP_REDFANG_FEMUR_OF_THE_BEAST
+   [Artifact] Eye of the Cryohydra (Bastion)            item 151  ground    inventory MISSION_ITEM_A_CHAMP_BASTION_CRYOHYDRA_EYE
+   [Artifact] Orb of Ice Bolt (The Seer)                item 149  ground    inventory MISSION_ITEM_A_CHAMP_SEER_ICE_BOLT
+   [Artifact] Relic of the Lizard Tomb (Bastion)        item 144  ground    inventory MISSION_ITEM_A_CHAMP_BASTION_RELIC_OF_THE_LIZARD_TOMB
+   [Artifact] Relic of the Lizard Tomb (Kael)           item 146  ground    inventory MISSION_ITEM_A_CHAMP_KAEL_RELIC_OF_THE_LIZARD_TOMB
+   [Artifact] Relic of the Lizard Tomb (Lady Marryn)    item 145  ground    inventory MISSION_ITEM_A_CHAMP_LADY_MARRYN_RELIC_OF_THE_LIZARD_TOMB
+   [Artifact] Relic of the Lizard Tomb (The Seer)       item 147  ground    inventory MISSION_ITEM_A_CHAMP_SEER_RELIC_OF_THE_LIZARD_TOMB
+   [Artifact] Sadistic Blades (Silverblade)             item 162  ground    inventory MISSION_ITEM_L_CHAMP_SILVERBLADE_SADISTIC_BLADE
+   [Artifact] Staff of Extermination (Wowen)            item 161  ground    inventory MISSION_ITEM_L_CHAMP_WOWEN_STAFF_OF_EXTERMINATION
+   [Artifact] Staff of Wounding (Blackclaw)             item 163  ground    inventory MISSION_ITEM_L_CHAMP_BLACKCLAW_STAFF_OF_WOUNDING
+   [Artifact] Umber Hulk Ichor (Blackclaw)              item 156  ground    inventory MISSION_ITEM_L_CHAMP_BLACKCLAW_UMBERHULK_DROP
+   [Artifact] Umber Hulk Ichor (Redfang)                item 157  ground    inventory MISSION_ITEM_L_CHAMP_REDFANG_UMBERHULK_DROP
+   [Artifact] Umber Hulk Ichor (Silverblade)            item 158  ground    inventory MISSION_ITEM_L_CHAMP_SILVERBLADE_UMBERHULK_DROP
+   [Artifact] Umber Hulk Ichor (Wowen)                  item 159  ground    inventory MISSION_ITEM_L_CHAMP_WOWEN_UMBERHULK_DROP
+   [Quest] 1/2 Spirit of the Drake (bottom)             item 119  ground    inventory MISSION_ITEM_SPIRIT_OF_THE_DRAKE_BOTTOM
+   [Quest] 1/2 Spirit of the Drake (egg half)           item  50  ground    inventory MISSION_ITEM_CRYSTAL_DRAKE_EGG_HALF
+   [Quest] 1/2 Spirit of the Drake (top)                item 111  ground    inventory MISSION_ITEM_SPIRIT_OF_THE_DRAKE_TOP
+   [Quest] Black Glyph                                  item 100  ground    -         MISSION_ITEM_GLYPH_BLACK
+   [Quest] Bloodstained Journal                         item 103  ground    inventory MISSION_ITEM_BLOODSTAINED_JOURNAL
+   [Quest] Bloodstained Journal (adventurer's)          item 124  ground    -         MISSION_ITEM_ADVENTURERS_JOURNAL
+   [Quest] Bonecrafted Pauldron                         item  17  ground    inventory MISSION_ITEM_BONECRAFTED_PAULDRON
+   [Quest] Cursed Scimitar                              item  12  ground    inventory MISSION_ITEM_CURSED_SCIMITAR
+   [Quest] Darroc's Eye (left)                          item  51  ground    inventory MISSION_ITEM_DARROCS_LEFT_EYE
+   [Quest] Darroc's Eye (right)                         item  52  ground    inventory MISSION_ITEM_DARROCS_RIGHT_EYE
+   [Quest] Darroc's Remains                             item  53  ground    inventory MISSION_ITEM_DARROCS_REMAINS
+   [Quest] Duergar Bracer                               item  92  ground    inventory MISSION_ITEM_DUERGAR_BRACER
+   [Quest] Duergar Journal                              item 105  ground    inventory MISSION_ITEM_DUERGAR_JOURNAL
+   [Quest] Emblem of the Club                           item  55  ground    inventory MISSION_ITEM_EMBLEM_OF_THE_SUN
+   [Quest] Emblem of the Club (second set)              item 109  -         inventory MISSION_ITEM_SUN_EMBLEM
+   [Quest] Emblem of the Fang                           item  56  ground    inventory MISSION_ITEM_EMBLEM_OF_THE_SWORD
+   [Quest] Emblem of the Fang (second set)              item 108  -         inventory MISSION_ITEM_SWORD_EMBLEM
+   [Quest] Emblem of the Spear                          item  54  ground    inventory MISSION_ITEM_EMBLEM_OF_THE_STARS
+   [Quest] Emblem of the Spear (second set)             item 107  -         inventory MISSION_ITEM_MOON_EMBLEM
+   [Quest] Fire Toad Tongue                             item  71  ground    inventory MISSION_ITEM_FIRE_TOAD_TONGUE
+   [Quest] Gelatinous Goo                               item 112  ground    inventory MISSION_ITEM_GELATINOUS_GOO
+   [Quest] Gem of Command                               item 123  ground    -         MISSION_ITEM_GEM_OF_COMMAND
+   [Quest] Green Glyph                                  item 102  ground    -         MISSION_ITEM_GLYPH_GREEN
+   [Quest] Hive Progress Report                         item 117  ground    inventory MISSION_ITEM_KEEPER_REPORT
+   [Quest] Hive Progress Report (monk)                  item 125  ground    inventory MISSION_ITEM_KEEPER_REPORT_MONK
+   [Quest] Horn of Devil Calling                        item  39  ground    inventory MISSION_ITEM_HORN_OF_DEMON_CALLING
+   [Quest] Invasion Instructions                        item 126  ground    inventory MISSION_ITEM_CITY_SCHEMATIC
+   [Quest] Key of Binding                               item   8  ground    inventory MISSION_ITEM_ANCIENT_SPIRITS_KEY
+   [Quest] Left Half of Warden's Key                    item 140  ground    inventory MISSION_ITEM_GATE_KEY_LEFT
+   [Quest] Lizardfolk Prison Key                        item 136  ground    inventory MISSION_ITEM_LIZARD_PRISON_KEY
+   [Quest] Monk Blood                                   item 115  ground    inventory MISSION_ITEM_MONK_BLOOD
+   [Quest] Nature Totem                                 item 168  ground    inventory MISSION_ITEM_NATURE_TOTEM
+   [Quest] Navigation Tool                              item  59  ground    inventory MISSION_ITEM_NAVIGATION_TOOL
+   [Quest] Necromancer Journal                          item 130  ground    inventory MISSION_ITEM_NECROMANCER_JOURNAL
+   [Quest] Obsidian Doctrine (enemies)                  item 118  ground    inventory MISSION_ITEM_OBSIDIAN_DOCTRINE_ENEMY
+   [Quest] Obsidian Doctrine (training)                 item 114  ground    inventory MISSION_ITEM_OBSIDIAN_DOCTRINE_TRAINING
+   [Quest] Orb of Undeath                               item 131  ground    -         MISSION_ITEM_ORB_OF_UNDEATH
+   [Quest] Path of the Paladin                          item 116  ground    inventory MISSION_ITEM_PATH_OF_THE_PALADIN
+   [Quest] Potion of Stone to Flesh                     item  43  ground    inventory MISSION_ITEM_POTION_OF_STONE_TO_FLESH
+   [Quest] Red Glyph                                    item 101  ground    -         MISSION_ITEM_GLYPH_RED
+   [Quest] Right Half of Warden's Key                   item 141  ground    inventory MISSION_ITEM_GATE_KEY_RIGHT
+   [Quest] Rune of Passage                              item   9  ground    inventory MISSION_ITEM_RUNE_OF_ANCIENTS
+   [Quest] Scroll of Banishment                         item 132  -         inventory MISSION_ITEM_POTION_OF_UNDEAD_BANE
+   [Quest] Scroll of Stone to Flesh - Mass              item  45  ground    inventory MISSION_ITEM_SCROLL_OF_STONE_TO_FLESH
+   [Quest] Seal of Light                                item  36  ground    inventory MISSION_ITEM_SEAL_OF_LIGHT
+   [Quest] Seal of Light (multiplayer version)          item 133  -         inventory MISSION_ITEM_SEAL_OF_LIGHT_MULTIPLAYER
+   [Quest] Shaman Doll                                  item  79  ground    inventory MISSION_ITEM_SHAMAN_TOY
+   [Quest] Spirit of the Drake                          item  78  -         inventory MISSION_ITEM_SPIRIT_OF_THE_DRAKE
+   [Quest] Spirit of the Drake (egg)                    item  49  ground    inventory MISSION_ITEM_CRYSTAL_DRAKE_EGG
+   [Quest] Staff of Command                             item   7  ground    inventory MISSION_ITEM_STAFF_OF_COMMAND
+   [Quest] Thri-Kreen Gold                              item  16  ground    inventory MISSION_ITEM_MANTIS_FOLK_GOLD_ITEM
+   [Quest] Torch of Honor                               item 171  ground    inventory MISSION_ITEM_PHOENIX_TORCH_HONOR
+   [Quest] Torch of Justice                             item 169  ground    inventory MISSION_ITEM_PHOENIX_TORCH_JUSTICE
+   [Quest] Torch of Righteousness                       item 170  ground    inventory MISSION_ITEM_PHOENIX_TORCH_RIGHTEOUSNESS
+   [Quest] Torture Records                              item 113  ground    inventory MISSION_ITEM_TORTURE_RECORDS
+   [Quest] Totem of Faith                               item  28  ground    inventory MISSION_ITEM_IDOL_OF_FAITH
+   [Quest] Unidentified Liquid                          item  86  ground    inventory MISSION_ITEM_UNIDENTIFIED_LIQUID
+   [Quest] Very Important Documents                     item 172  ground    inventory MISSION_ITEM_VERY_IMPORTANT_DOCUMENT
+   [Quest] Wand of Negation                             item  18  ground    inventory MISSION_ITEM_WAND_OF_NEGATION
+   [Quest] Warforged Parts (head and torso)             item 122  -         inventory MISSION_ITEM_WARFORGE_SCRAPS_HEAD_AND_TORSO
+   [Quest] Warforged Parts (head)                       item 121  -         inventory MISSION_ITEM_WARFORGE_SCRAPS_HEAD
+   [Quest] Wizard's Staff                               item  44  ground    inventory MISSION_ITEM_ELDERLY_WIZARDS_STAFF
+   [Quest] Writ of Passage                              item 120  ground    inventory MISSION_ITEM_WRIT_OF_PASSAGE
+   [Quest] Yuan-Ti Key                                  item  82  ground    inventory MISSION_ITEM_YUANTI_POTION
+
+== Items left out on purpose (12)
+   item   5  MISSION_ITEM_SCROLL_OF_FIREBALL                  no in-game name text (unfinished/debug item)
+   item  25  MISSION_ITEM_ELVEN_SWORD                         no in-game name text (unfinished/debug item)
+   item  33  MISSION_ITEM_HEALING_POTION                      no in-game name text (unfinished/debug item)
+   item  60  (no row)                                         row absent in MissionItems.lqr (deleted item)
+   item  94  MISSION_ITEM_STAFF_OF_VINES                      no in-game name text (unfinished/debug item)
+   item  96  MISSION_ITEM_AXE_OF_LOST_SOULS                   no in-game name text (unfinished/debug item)
+   item  97  MISSION_ITEM_TUNIC_OF_QUICKENING                 no in-game name text (unfinished/debug item)
+   item 135  MISSION_ITEM_SCROLL_OF_FLESH_TO_STONE            no in-game name text (unfinished/debug item)
+   item 142  MISSION_ITEM_EYE_OF_THE_CRYOHYDRA                no in-game name text (unfinished/debug item)
+   item 143  MISSION_ITEM_A_CHAMP_BASTION_SPIKED_WRECKING_BALL no in-game name text (unfinished/debug item)
+   item 173  MISSION_ITEM_NECROMANCER_LORE_BOOK_1             no in-game name text (unfinished/debug item)
+   item 174  MISSION_ITEM_NECROMANCER_LORE_BOOK_2             no in-game name text (unfinished/debug item)
+
+== Units and buildings left out on purpose (73)
+   Unit      13  UNIT_NPC_MECHANIST_SPIRIT                        IsWorking=0 in Units.lqr (unfinished)
+   Unit      45  UNIT_NPC_GENIE_BOTTLE                            IsWorking=0 in Units.lqr (unfinished)
+   Unit      51  UNIT_NPC_TORTURED_QABALRIN_SPIRIT                IsWorking=0 in Units.lqr (unfinished)
+   Unit      54  UNIT_NPC_TORTURED_QABALRIN_ELF                   IsWorking=0 in Units.lqr (unfinished)
+   Unit     118  UNIT_M_QABALRIN_PRISON_MASTER                    IsWorking=0 in Units.lqr (unfinished)
+   Unit     182  UNIT_A_CHAMP_LADY_MARRYN_INTERFACE               menu/portrait model, not a battlefield unit
+   Unit     183  UNIT_L_CHAMP_SILVERBLADE_INTERFACE               menu/portrait model, not a battlefield unit
+   Unit     185  UNIT_A_CHAMP_KAEL_INTERFACE                      menu/portrait model, not a battlefield unit
+   Unit     186  UNIT_L_CHAMP_BLACKCLAW_INTERFACE                 menu/portrait model, not a battlefield unit
+   Unit     246  UNIT_A_CHAMP_SEER_INTERFACE                      menu/portrait model, not a battlefield unit
+   Unit     247  UNIT_A_CHAMP_BASTION_INTERFACE                   menu/portrait model, not a battlefield unit
+   Unit     249  UNIT_L_CHAMP_REDFANG_INTERFACE                   menu/portrait model, not a battlefield unit
+   Unit     259  UNIT_L_CHAMP_WOWEN_INTERFACE                     menu/portrait model, not a battlefield unit
+   Building   4  BUILDING_L_GREAT_MOTHER                          town centre (Keep): tied to the town grid and town ownership
+   Building  14  BUILDING_D_NEXUS_EXPANSION_WALLS_CORNER_H        Nexus wall/gate/tower piece (needs the wall builder)
+   Building  21  BUILDING_D_NEXUS_EXPANSION_WALLS_GATE_H          Nexus wall/gate/tower piece (needs the wall builder)
+   Building  22  BUILDING_UNIT_D_CAPT_KEEPER_HIVE_HOLE            created by a unit battle gear, not a standalone building
+   Building  23  BUILDING_L_NEXUS_EXPANSION_WALLS_CORNER_H        Nexus wall/gate/tower piece (needs the wall builder)
+   Building  24  BUILDING_L_NEXUS_EXPANSION_WALLS_GATE_H          Nexus wall/gate/tower piece (needs the wall builder)
+   Building  25  BUILDING_A_NEXUS_DAMAGE                          Nexus monument: only valid in a Nexus slot
+   Building  26  BUILDING_A_NEXUS_SPELL_ENERGY                    Nexus monument: only valid in a Nexus slot
+   Building  27  BUILDING_A_KEEP                                  town centre (Keep): tied to the town grid and town ownership
+   Building  35  BUILDING_D_ALTAR_OF_SHADOWS                      town centre (Keep): tied to the town grid and town ownership
+   Building  36  BUILDING_D_SHRINE_OF_NIGHT                       IsWorking=0 in Buildings.lqr (unfinished)
+   Building  37  BUILDING_D_TEMPLE_OF_DARKNESS                    IsWorking=0 in Buildings.lqr (unfinished)
+   Building  50  BUILDING_A_NEXUS_HITPOINTS                       Nexus monument: only valid in a Nexus slot
+   Building  51  BUILDING_L_NEXUS_DAMAGE                          Nexus monument: only valid in a Nexus slot
+   Building  52  BUILDING_L_NEXUS_HITPOINTS                       Nexus monument: only valid in a Nexus slot
+   Building  53  BUILDING_A_NEXUS_WALLS_COBBLE_CORNER_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  54  BUILDING_L_NEXUS_WALLS_LEVEL_01_CORNER_A_H       Nexus wall/gate/tower piece (needs the wall builder)
+   Building  55  BUILDING_A_NEXUS_WALLS_COBBLE_GATE_H             Nexus wall/gate/tower piece (needs the wall builder)
+   Building  56  BUILDING_A_NEXUS_WALLS_COBBLE_WALL_H             Nexus wall/gate/tower piece (needs the wall builder)
+   Building  57  BUILDING_A_NEXUS_WALLS_STONE_CORNER_H            Nexus wall/gate/tower piece (needs the wall builder)
+   Building  58  BUILDING_A_NEXUS_WALLS_STONE_GATE_H              Nexus wall/gate/tower piece (needs the wall builder)
+   Building  59  BUILDING_L_NEXUS_WALLS_LEVEL_02_CORNER_A_H       Nexus wall/gate/tower piece (needs the wall builder)
+   Building  60  BUILDING_A_NEXUS_WALLS_STONE_WALL_H              Nexus wall/gate/tower piece (needs the wall builder)
+   Building  61  BUILDING_A_NEXUS_WALLS_WOOD_CORNER_H             Nexus wall/gate/tower piece (needs the wall builder)
+   Building  62  BUILDING_A_NEXUS_WALLS_WOOD_GATE_H               Nexus wall/gate/tower piece (needs the wall builder)
+   Building  63  BUILDING_A_NEXUS_WALLS_WOOD_WALL_H               Nexus wall/gate/tower piece (needs the wall builder)
+   Building  64  BUILDING_D_NEXUS_WALLS_LEVEL_01_CORNER_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  65  BUILDING_D_NEXUS_WALLS_LEVEL_01_GATE_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  66  BUILDING_D_NEXUS_WALLS_LEVEL_01_WALL_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  67  BUILDING_D_NEXUS_WALLS_LEVEL_02_CORNER_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  68  BUILDING_D_NEXUS_WALLS_LEVEL_02_GATE_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  69  BUILDING_D_NEXUS_WALLS_LEVEL_02_WALL_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  70  BUILDING_D_NEXUS_WALLS_LEVEL_03_CORNER_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  71  BUILDING_D_NEXUS_WALLS_LEVEL_03_GATE_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  72  BUILDING_D_NEXUS_WALLS_LEVEL_03_WALL_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  74  BUILDING_L_NEXUS_SPELL_ENERGY                    Nexus monument: only valid in a Nexus slot
+   Building  75  BUILDING_A_NEXUS_EXPANSION_WALLS_CORNER_H        Nexus wall/gate/tower piece (needs the wall builder)
+   Building  76  BUILDING_A_NEXUS_EXPANSION_WALLS_GATE_H          Nexus wall/gate/tower piece (needs the wall builder)
+   Building  77  BUILDING_L_NEXUS_WALLS_LEVEL_03_CORNER_A_H       Nexus wall/gate/tower piece (needs the wall builder)
+   Building  78  BUILDING_L_NEXUS_WALLS_LEVEL_01_CORNER_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  79  BUILDING_L_NEXUS_WALLS_LEVEL_02_CORNER_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  80  BUILDING_L_NEXUS_WALLS_LEVEL_03_CORNER_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  81  BUILDING_L_NEXUS_WALLS_LEVEL_01_GATE_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  82  BUILDING_L_NEXUS_WALLS_LEVEL_02_GATE_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  83  BUILDING_L_NEXUS_WALLS_LEVEL_03_GATE_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  84  BUILDING_L_NEXUS_WALLS_LEVEL_01_WALL_A_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  85  BUILDING_L_NEXUS_WALLS_LEVEL_01_WALL_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  86  BUILDING_L_NEXUS_WALLS_LEVEL_02_WALL_A_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  87  BUILDING_L_NEXUS_WALLS_LEVEL_02_WALL_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  88  BUILDING_L_NEXUS_WALLS_LEVEL_03_WALL_A_H         Nexus wall/gate/tower piece (needs the wall builder)
+   Building  89  BUILDING_L_NEXUS_WALLS_LEVEL_03_WALL_H           Nexus wall/gate/tower piece (needs the wall builder)
+   Building  90  BUILDING_D_NEXUS_DAMAGE                          Nexus monument: only valid in a Nexus slot
+   Building  91  BUILDING_D_NEXUS_HITPOINTS                       Nexus monument: only valid in a Nexus slot
+   Building  92  BUILDING_D_NEXUS_SPELL_ENERGY                    Nexus monument: only valid in a Nexus slot
+   Building  93  BUILDING_A_NEXUS_RACIAL                          Nexus monument: only valid in a Nexus slot
+   Building  94  BUILDING_L_NEXUS_RACIAL                          Nexus monument: only valid in a Nexus slot
+   Building  95  BUILDING_D_NEXUS_RACIAL                          Nexus monument: only valid in a Nexus slot
+   Building  96  BUILDING_A_NEXUS_EXPANSION_TOWER                 expansion monolith: tied to Nexus expansion slots
+   Building  97  BUILDING_L_NEXUS_EXPANSION_TOWER                 expansion monolith: tied to Nexus expansion slots
+   Building  98  BUILDING_D_NEXUS_EXPANSION_TOWER                 expansion monolith: tied to Nexus expansion slots
